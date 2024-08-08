@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 21rem;
+    height: 38rem;
+    border: 4px solid black;
+    margin: auto;
+    margin-top: 4rem;
+    background-color: skyblue;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.heading-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text{
+    margin-left: 0.5rem;
+}
+
+.heading-section div{
+    display: flex; 
+}
+
+.btns{
+    display: flex;
+    text-align: center;
+    margin-top: -11px;
+}
+
+.btn-, .btnx, .btnsquare{
+    width: 3rem;
+    height: 1.5rem;
+    border: 1px solid black;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-{
+    border-bottom-left-radius: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+.minimize{
+    border: none;
+    background-color: skyblue;
+}
+
+.btnx{
+    border-bottom-right-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+}
+
+.close{
+    border: none;
+    background-color: red;
+    cursor: pointer;
+}
+
+.btnsquare{
+    color: white;
+    font-size: 15px;
+}
+
+.btn-:hover{
+    background-color: black;
+}
+
+.btnx:hover{
+    background-color: black;
+}
+
+.btnsquare:hover{
+    background-color: black;
+}
+
+.main-content{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    height: 36rem;
+    margin-top: 0.8rem;
+}
+
+.option-section{
+    display: flex;
+    height: 25px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid black;
+    padding: 0.4rem;
+}
+
+.option-section div{
+    margin-right: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.option-section div:hover{
+   color: white;
+   background-color: black;
+   border-radius: 10px;
+   text-decoration: underline;
+}
+.output-section{
+    background-color: white;
+    padding: 13px;
+}
+
+.output-section input{
+    width: 95%;
+    height: 5rem;
+    margin: auto auto;  
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
+.btn-section{
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+}
+
+tr{
+    margin: 10px;
+}
+
+td{
+    border: 2px solid black;
+    width: 50px;
+    height: 40px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 12px;   
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+td:hover{
+    background-color:black;
+    color: white;
+}
+
+
